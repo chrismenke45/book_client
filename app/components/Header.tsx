@@ -14,8 +14,9 @@ export default function Header() {
 const styles = StyleSheet.create({
     header: {
         flex: 1,
+        flexDirection: 'row',
         backgroundColor: '#FFF',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
     },
 });

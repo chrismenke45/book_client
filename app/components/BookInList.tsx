@@ -1,16 +1,8 @@
 import { View, Text, StyleSheet, Image } from "react-native"
-
-interface BookObject {
-    title: string;
-    img: string;
-    id: string;
-    authors: string[];
-    pageCount: number;
-    description: string;
-}
+import Book from "../interfaces/Book";
 
 interface Props {
-    book: BookObject;
+    book: Book;
 }
 
 export default function BookInList(props: Props) {
