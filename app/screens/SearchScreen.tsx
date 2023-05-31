@@ -1,7 +1,7 @@
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 import Header from '../components/Header';
 
-export default function HomeScreen() {
+export default function SearchScreen() {
     return (
         <View style={styles.container}>
             <Header />
